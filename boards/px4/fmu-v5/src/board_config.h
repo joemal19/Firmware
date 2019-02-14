@@ -667,7 +667,8 @@
 		GPIO_TONE_ALARM_IDLE,             \
 		GPIO_RSSI_IN_INIT,                \
 		GPIO_nSAFETY_SWITCH_LED_OUT_INIT, \
-		GPIO_SAFETY_SWITCH_IN             \
+		GPIO_SAFETY_SWITCH_IN,            \
+		GPIO_nARMED_INIT                  \  
 	}
 
 __BEGIN_DECLS
