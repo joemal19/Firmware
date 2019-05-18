@@ -55,7 +55,7 @@
  * @increment 0.5
  * @group Return Mode
  */
-PARAM_DEFINE_FLOAT(RTL_RETURN_ALT, 60);
+PARAM_DEFINE_FLOAT(RTL_RETURN_ALT, 5);
 
 
 /**
@@ -71,7 +71,7 @@ PARAM_DEFINE_FLOAT(RTL_RETURN_ALT, 60);
  * @increment 0.5
  * @group Return Mode
  */
-PARAM_DEFINE_FLOAT(RTL_DESCEND_ALT, 30);
+PARAM_DEFINE_FLOAT(RTL_DESCEND_ALT, 3);
 
 /**
  * Return mode delay
@@ -102,7 +102,7 @@ PARAM_DEFINE_FLOAT(RTL_LAND_DELAY, -1.0f);
  * @increment 0.5
  * @group Return Mode
  */
-PARAM_DEFINE_FLOAT(RTL_MIN_DIST, 5.0f);
+PARAM_DEFINE_FLOAT(RTL_MIN_DIST, 20.0f);
 
 /**
  * Return type
